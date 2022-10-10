@@ -29,15 +29,15 @@
         <sys_created_by>kenneth.frencher</sys_created_by>
         <sys_created_on>2022-10-10 18:40:23</sys_created_on>
         <sys_id>bcc4d8501b66155016814338b04bcbf7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>kenneth.frencher</sys_updated_by>
-        <sys_updated_on>2022-10-10 18:45:56</sys_updated_on>
+        <sys_updated_on>2022-10-10 20:27:39</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>

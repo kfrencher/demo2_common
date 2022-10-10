@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Demo Global Common" source="647be0541ba6155016814338b04bcb1a">647be0541ba6155016814338b04bcb1a</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>kenneth.frencher</sys_created_by>
+        <sys_created_on>2022-10-10 20:30:20</sys_created_on>
+        <sys_id>e3ed68d41ba6155016814338b04bcbad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_package display_value="Demo Common" source="x_usga2_demo_commo">bcc4d8501b66155016814338b04bcbf7</sys_package>
+        <sys_updated_by>kenneth.frencher</sys_updated_by>
+        <sys_updated_on>2022-10-10 20:31:58</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
