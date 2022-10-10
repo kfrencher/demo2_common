@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_usga2_demo_commo.Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Utils</name>
+        <script><![CDATA[var Utils = {
+	/**
+	 * Retrieves the GlideRecord using the provided sysId and tableName
+	 * Returns the GlideRecord if the record is found else returns null
+	 * @param {string} sysId
+	 * @param {string} tableName
+	 * @returns {GlideRecord}
+	 */
+	getRecord: function(sysId, tableName) {
+		var glideRecord = new GlideRecord(tableName);
+		if(glideRecord.get(sysId)) {
+			return glideRecord;
+		} else {
+			return null;
+		}
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kenneth.frencher</sys_created_by>
+        <sys_created_on>2022-10-10 18:42:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>80d414901b66155016814338b04bcb95</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Utils</sys_name>
+        <sys_package display_value="Demo Common" source="x_usga2_demo_commo">bcc4d8501b66155016814338b04bcbf7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demo Common">bcc4d8501b66155016814338b04bcbf7</sys_scope>
+        <sys_update_name>sys_script_include_80d414901b66155016814338b04bcb95</sys_update_name>
+        <sys_updated_by>kenneth.frencher</sys_updated_by>
+        <sys_updated_on>2022-10-10 18:43:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
